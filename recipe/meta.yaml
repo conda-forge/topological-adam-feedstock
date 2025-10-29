@@ -1,5 +1,5 @@
 {% set name = "topological-adam" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/topological_adam-{{ version }}.tar.gz
-  sha256: cb25e2c0a51c342906fd03ff838236faeec823b8e0dae3892289c428921cb18a
+  sha256: e3acbc1b7cd727dd0caad3648777ba3562d0a0386a8addb051c3d01cfba95677
 
 build:
   noarch: python
